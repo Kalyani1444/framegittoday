@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-04T09:11:43.097Z",
+        "line": 3,
+        "name": "facebook login wiht valid credentials",
+        "description": "",
+        "id": "facebook-login-validation;facebook-login-wiht-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1787100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User on facebook login page",
+            "match": {
+              "location": "StepDef.user_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters the valid userName and password",
+            "match": {
+              "location": "StepDef.user_enters_the_valid_userName_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 492000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User verfies the login success page",
+            "match": {
+              "location": "StepDef.user_verfies_the_login_success_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User verifies the home page comming",
+            "match": {
+              "location": "StepDef.user_verifies_the_home_page_comming()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login validation",
+    "description": "",
+    "id": "facebook-login-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Facebook.feature",
+    "tags": []
+  }
+]

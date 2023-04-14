@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.056315">
+<testcase classname="Verify Instagram login page" name="verify login with valid credentials" time="11.216575">
+<system-out><![CDATA[Given User is on Instagram login page.......................................passed
+When User enters "7418851444" and "Instagram@123" and click on login Button.passed
+Then User verify login success message......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Instagram login page" name="verify login with invalid credentials" time="8.730214">
+<system-out><![CDATA[Given User is on Instagram login page.......................................passed
+When User enters "7418851444" and "Password@123" and click on login Button..passed
+Then User verify login error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Instagram login page" name="" time="8.109526">
+<system-out><![CDATA[Given User is on Instagram login page.......................................passed
+When User enters userName and password and press enter key..................passed
+Then User verify login success message......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

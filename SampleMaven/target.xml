@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.009142">
+<testcase classname="Validation of login page" name="tc01_validation of login page with valid credentials" time="0.006807">
+<system-out><![CDATA[Given user is on facebook application.......................................skipped
+Then user verified login page is displayed..................................skipped
+When user enters the valid user name and password...........................skipped
+And User clicks on login button.............................................skipped
+Then User verifies home page is displayed...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Validation of login page" name="tc02_validation of login page with multiple invalid credentials" time="0.00122">
+<system-out><![CDATA[Given user is on facebook application.......................................skipped
+Then user verified login page is displayed..................................skipped
+When user enters the invalid "java" and "<PassWord>"........................skipped
+And User clicks on login button.............................................skipped
+Then User verifies error message is displayed...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Validation of login page" name="tc02_validation of login page with multiple invalid credentials 2" time="0.000603">
+<system-out><![CDATA[Given user is on facebook application.......................................skipped
+Then user verified login page is displayed..................................skipped
+When user enters the invalid "python" and "<PassWord>"......................skipped
+And User clicks on login button.............................................skipped
+Then User verifies error message is displayed...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Validation of login page" name="tc02_validation of login page with multiple invalid credentials 3" time="0.000512">
+<system-out><![CDATA[Given user is on facebook application.......................................skipped
+Then user verified login page is displayed..................................skipped
+When user enters the invalid "selenium" and "<PassWord>"....................skipped
+And User clicks on login button.............................................skipped
+Then User verifies error message is displayed...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>
